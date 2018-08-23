@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import Barcode_Scanner
 
 class Barcode_ScannerUITests: XCTestCase {
         
@@ -29,8 +30,13 @@ class Barcode_ScannerUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        app.buttons["Scan Title"].tap()
+        
+       XCTAssert(app.staticTexts["Place the barcode here."].exists)
+        
+        
     }
     
 }
