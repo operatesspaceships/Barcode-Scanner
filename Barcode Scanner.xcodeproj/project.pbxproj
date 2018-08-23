@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F004FD5212201C200705691 /* DrawingAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F004FD4212201C100705691 /* DrawingAssets.swift */; };
+		8F004FD7212201DD00705691 /* RescanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F004FD6212201DD00705691 /* RescanButton.swift */; };
+		8F22F4F4212F208900313B37 /* APIKey.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8F22F4F3212F208900313B37 /* APIKey.txt */; };
+		8F5107EB2121F6A70051882E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5107EA2121F6A70051882E /* AppDelegate.swift */; };
+		8F5107ED2121F6A70051882E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5107EC2121F6A70051882E /* ScannerViewController.swift */; };
+		8F5107F02121F6A70051882E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5107EE2121F6A70051882E /* Main.storyboard */; };
+		8F5107F22121F6A80051882E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5107F12121F6A80051882E /* Assets.xcassets */; };
+		8F5107F52121F6A80051882E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5107F32121F6A80051882E /* LaunchScreen.storyboard */; };
+		8F6418ED2124B47E0085ACF3 /* Request Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6418EC2124B47E0085ACF3 /* Request Model.swift */; };
+		8F6418F32124BA8F0085ACF3 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6418F22124BA8F0085ACF3 /* Protocols.swift */; };
+		8F76D51C212364E400A174CF /* Book Data Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F76D51B212364E400A174CF /* Book Data Model.swift */; };
+		8F76D52121236C3000A174CF /* Proxima Nova Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F76D51821235F1900A174CF /* Proxima Nova Bold.ttf */; };
+		8F76D52221236C3600A174CF /* Proxima Nova Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F76D51A21235FB200A174CF /* Proxima Nova Thin.ttf */; };
+		8F76D52321236C3600A174CF /* Proxima Nova Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F76D51721235F1900A174CF /* Proxima Nova Black.ttf */; };
+		8F76D52421236C3600A174CF /* Proxima Nova Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F76D51921235F1900A174CF /* Proxima Nova Semibold.ttf */; };
+		8FA9FC41212B190F00D995AD /* AnimatableBarcodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9FC40212B190F00D995AD /* AnimatableBarcodeView.swift */; };
+		8FB0A4DE21232D78000BBEAA /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB0A4DD21232D78000BBEAA /* FocusView.swift */; };
+		8FB0A4E02123342B000BBEAA /* Helper Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB0A4DF2123342B000BBEAA /* Helper Extensions.swift */; };
+		8FB0A4E221234DE7000BBEAA /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB0A4E121234DE7000BBEAA /* BackButton.swift */; };
+		8FCA5FAC212C8900001747AA /* ScannerViewControllerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCA5FAB212C8900001747AA /* ScannerViewControllerTypes.swift */; };
+		8FCA5FAE212C8FBB001747AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCA5FAD212C8FBB001747AA /* ViewController.swift */; };
+		8FDE9ABC2125BC3C00F6767C /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE9ABB2125BC3C00F6767C /* FlashlightButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F004FD4212201C100705691 /* DrawingAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingAssets.swift; sourceTree = "<group>"; };
+		8F004FD6212201DD00705691 /* RescanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescanButton.swift; sourceTree = "<group>"; };
+		8F22F4F3212F208900313B37 /* APIKey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APIKey.txt; sourceTree = "<group>"; };
+		8F5107E72121F6A70051882E /* Barcode Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcode Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5107EA2121F6A70051882E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F5107EC2121F6A70051882E /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		8F5107EF2121F6A70051882E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F5107F12121F6A80051882E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F5107F42121F6A80051882E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F5107F62121F6A80051882E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6418EC2124B47E0085ACF3 /* Request Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Request Model.swift"; sourceTree = "<group>"; };
+		8F6418F22124BA8F0085ACF3 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		8F76D51721235F1900A174CF /* Proxima Nova Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.ttf"; sourceTree = "<group>"; };
+		8F76D51821235F1900A174CF /* Proxima Nova Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.ttf"; sourceTree = "<group>"; };
+		8F76D51921235F1900A174CF /* Proxima Nova Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Semibold.ttf"; sourceTree = "<group>"; };
+		8F76D51A21235FB200A174CF /* Proxima Nova Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.ttf"; sourceTree = "<group>"; };
+		8F76D51B212364E400A174CF /* Book Data Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book Data Model.swift"; sourceTree = "<group>"; };
+		8FA9FC40212B190F00D995AD /* AnimatableBarcodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableBarcodeView.swift; sourceTree = "<group>"; };
+		8FB0A4DD21232D78000BBEAA /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		8FB0A4DF2123342B000BBEAA /* Helper Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper Extensions.swift"; sourceTree = "<group>"; };
+		8FB0A4E121234DE7000BBEAA /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		8FCA5FAB212C8900001747AA /* ScannerViewControllerTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewControllerTypes.swift; sourceTree = "<group>"; };
+		8FCA5FAD212C8FBB001747AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FDE9ABB2125BC3C00F6767C /* FlashlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F5107E42121F6A70051882E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F22F4F2212F207A00313B37 /* API Key */ = {
+			isa = PBXGroup;
+			children = (
+				8F22F4F3212F208900313B37 /* APIKey.txt */,
+			);
+			path = "API Key";
+			sourceTree = "<group>";
+		};
+		8F5107DE2121F6A70051882E = {
+			isa = PBXGroup;
+			children = (
+				8F5107E92121F6A70051882E /* Barcode Scanner */,
+				8F5107E82121F6A70051882E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F5107E82121F6A70051882E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F5107E72121F6A70051882E /* Barcode Scanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F5107E92121F6A70051882E /* Barcode Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				8F5107EA2121F6A70051882E /* AppDelegate.swift */,
+				8FCA5FAD212C8FBB001747AA /* ViewController.swift */,
+				8F22F4F2212F207A00313B37 /* API Key */,
+				8F6418F12124BA660085ACF3 /* Controllers */,
+				8FA9FC3F212B18FA00D995AD /* Views */,
+				8F6418EE2124B49F0085ACF3 /* Models */,
+				8F6418F42124BA960085ACF3 /* Protocols */,
+				8F6418F52124BB1E0085ACF3 /* Extensions */,
+				8FCA5FAF212C9384001747AA /* Types */,
+				8F76D51621235EC100A174CF /* Resources */,
+				8F5107EE2121F6A70051882E /* Main.storyboard */,
+				8F5107F12121F6A80051882E /* Assets.xcassets */,
+				8F5107F32121F6A80051882E /* LaunchScreen.storyboard */,
+				8F5107F62121F6A80051882E /* Info.plist */,
+			);
+			path = "Barcode Scanner";
+			sourceTree = "<group>";
+		};
+		8F6418EE2124B49F0085ACF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F6418EC2124B47E0085ACF3 /* Request Model.swift */,
+				8F76D51B212364E400A174CF /* Book Data Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F6418F12124BA660085ACF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F5107EC2121F6A70051882E /* ScannerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8F6418F42124BA960085ACF3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8F6418F22124BA8F0085ACF3 /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8F6418F52124BB1E0085ACF3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8FB0A4DF2123342B000BBEAA /* Helper Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8F76D51621235EC100A174CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F004FD4212201C100705691 /* DrawingAssets.swift */,
+				8F76D51A21235FB200A174CF /* Proxima Nova Thin.ttf */,
+				8F76D51721235F1900A174CF /* Proxima Nova Black.ttf */,
+				8F76D51821235F1900A174CF /* Proxima Nova Bold.ttf */,
+				8F76D51921235F1900A174CF /* Proxima Nova Semibold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8FA9FC3F212B18FA00D995AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FB0A4E121234DE7000BBEAA /* BackButton.swift */,
+				8FDE9ABB2125BC3C00F6767C /* FlashlightButton.swift */,
+				8F004FD6212201DD00705691 /* RescanButton.swift */,
+				8FB0A4DD21232D78000BBEAA /* FocusView.swift */,
+				8FA9FC40212B190F00D995AD /* AnimatableBarcodeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FCA5FAF212C9384001747AA /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				8FCA5FAB212C8900001747AA /* ScannerViewControllerTypes.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F5107E62121F6A70051882E /* Barcode Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F5107F92121F6A80051882E /* Build configuration list for PBXNativeTarget "Barcode Scanner" */;
+			buildPhases = (
+				8F5107E32121F6A70051882E /* Sources */,
+				8F5107E42121F6A70051882E /* Frameworks */,
+				8F5107E52121F6A70051882E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barcode Scanner";
+			productName = "Barcode Scanner Practice";
+			productReference = 8F5107E72121F6A70051882E /* Barcode Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F5107DF2121F6A70051882E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Phase 2";
+				TargetAttributes = {
+					8F5107E62121F6A70051882E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F5107E22121F6A70051882E /* Build configuration list for PBXProject "Barcode Scanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F5107DE2121F6A70051882E;
+			productRefGroup = 8F5107E82121F6A70051882E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F5107E62121F6A70051882E /* Barcode Scanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F5107E52121F6A70051882E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F76D52421236C3600A174CF /* Proxima Nova Semibold.ttf in Resources */,
+				8F76D52221236C3600A174CF /* Proxima Nova Thin.ttf in Resources */,
+				8F76D52321236C3600A174CF /* Proxima Nova Black.ttf in Resources */,
+				8F22F4F4212F208900313B37 /* APIKey.txt in Resources */,
+				8F5107F52121F6A80051882E /* LaunchScreen.storyboard in Resources */,
+				8F5107F22121F6A80051882E /* Assets.xcassets in Resources */,
+				8F5107F02121F6A70051882E /* Main.storyboard in Resources */,
+				8F76D52121236C3000A174CF /* Proxima Nova Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F5107E32121F6A70051882E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCA5FAE212C8FBB001747AA /* ViewController.swift in Sources */,
+				8FA9FC41212B190F00D995AD /* AnimatableBarcodeView.swift in Sources */,
+				8F5107ED2121F6A70051882E /* ScannerViewController.swift in Sources */,
+				8FB0A4E02123342B000BBEAA /* Helper Extensions.swift in Sources */,
+				8F6418F32124BA8F0085ACF3 /* Protocols.swift in Sources */,
+				8F004FD7212201DD00705691 /* RescanButton.swift in Sources */,
+				8F5107EB2121F6A70051882E /* AppDelegate.swift in Sources */,
+				8F004FD5212201C200705691 /* DrawingAssets.swift in Sources */,
+				8FB0A4E221234DE7000BBEAA /* BackButton.swift in Sources */,
+				8F6418ED2124B47E0085ACF3 /* Request Model.swift in Sources */,
+				8F76D51C212364E400A174CF /* Book Data Model.swift in Sources */,
+				8FB0A4DE21232D78000BBEAA /* FocusView.swift in Sources */,
+				8FDE9ABC2125BC3C00F6767C /* FlashlightButton.swift in Sources */,
+				8FCA5FAC212C8900001747AA /* ScannerViewControllerTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F5107EE2121F6A70051882E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F5107EF2121F6A70051882E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F5107F32121F6A80051882E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F5107F42121F6A80051882E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F5107F72121F6A80051882E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F5107F82121F6A80051882E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F5107FA2121F6A80051882E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X3P73M638;
+				INFOPLIST_FILE = "$(SRCROOT)/Barcode Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phase2.Barcode-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F5107FB2121F6A80051882E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X3P73M638;
+				INFOPLIST_FILE = "$(SRCROOT)/Barcode Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phase2.Barcode-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F5107E22121F6A70051882E /* Build configuration list for PBXProject "Barcode Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5107F72121F6A80051882E /* Debug */,
+				8F5107F82121F6A80051882E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F5107F92121F6A80051882E /* Build configuration list for PBXNativeTarget "Barcode Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5107FA2121F6A80051882E /* Debug */,
+				8F5107FB2121F6A80051882E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F5107DF2121F6A70051882E /* Project object */;
+}
