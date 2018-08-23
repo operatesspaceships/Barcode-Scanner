@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8F004FD5212201C200705691 /* DrawingAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F004FD4212201C100705691 /* DrawingAssets.swift */; };
 		8F004FD7212201DD00705691 /* RescanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F004FD6212201DD00705691 /* RescanButton.swift */; };
-		8F22F4F4212F208900313B37 /* APIKey.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8F22F4F3212F208900313B37 /* APIKey.txt */; };
 		8F22F4FC212F402F00313B37 /* Barcode_ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F22F4FB212F402F00313B37 /* Barcode_ScannerUITests.swift */; };
 		8F5107EB2121F6A70051882E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5107EA2121F6A70051882E /* AppDelegate.swift */; };
 		8F5107ED2121F6A70051882E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5107EC2121F6A70051882E /* ScannerViewController.swift */; };
@@ -302,7 +301,6 @@
 				8F76D52421236C3600A174CF /* Proxima Nova Semibold.ttf in Resources */,
 				8F76D52221236C3600A174CF /* Proxima Nova Thin.ttf in Resources */,
 				8F76D52321236C3600A174CF /* Proxima Nova Black.ttf in Resources */,
-				8F22F4F4212F208900313B37 /* APIKey.txt in Resources */,
 				8F5107F52121F6A80051882E /* LaunchScreen.storyboard in Resources */,
 				8F5107F22121F6A80051882E /* Assets.xcassets in Resources */,
 				8F5107F02121F6A70051882E /* Main.storyboard in Resources */,
