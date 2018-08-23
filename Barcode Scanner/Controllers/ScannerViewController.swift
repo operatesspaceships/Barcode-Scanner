@@ -13,7 +13,7 @@ class ScannerViewController: UIViewController {
     
     // MARK: - Public Properties
     weak var delegate: ScannerViewControllerDelegate?
-    var googleBooksAPIKey: String = ""
+    var googleBooksAPIKey: String = "AIzaSyD1O3zcDFSP-mN_pdmPQ-nBPfVUN5ixLR0"
     var shouldUseTestData: Bool = false
     
     // MARK: - Private Properties
