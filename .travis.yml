@@ -1,0 +1,5 @@
+language: objective-c  #1 Don't change this to 'Swift'.
+osx_image: xcode10 #2
+xcode_project: Barcode Scanner Demo Project.xcodeproj #3
+xcode_scheme: Barcode Scanner #4
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
