@@ -1,4 +1,4 @@
-language: objective-c  #1 Don't change this to 'Swift'.
+language: objective-c  #1 Don't change this to 'Swift.'
 script:
     - xcodebuild clean test -project "Barcode Scanner.xcodeproj" -scheme "Barcode Scanner" -destination "platform=iOS Simulator,name=iPhone X,OS=11.4" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
 osx_image: xcode10 #2
