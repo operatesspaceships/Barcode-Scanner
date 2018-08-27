@@ -36,7 +36,6 @@ class Barcode_ScannerUITests: XCTestCase {
         
        XCTAssert(app.staticTexts["Place the barcode here."].exists)
         
-        
     }
     
 }
