@@ -22,11 +22,13 @@ class ViewController: UIViewController {
     
     @IBAction func scanTitle(_ sender: Any) {
         
-        
+        let APIKey = "" // Add your Google Books API key here.
         
         let scannerViewController = ScannerViewController()
         scannerViewController.delegate = self
+        scannerViewController.googleBooksAPIKey = APIKey
         
+        // Use this block if you want to pass the APIKey as part of a launch argument.
         /*if let googleBooksAPIKey = UserDefaults.value(forKey: "apikey") as? String {
          
             scannerViewController.googleBooksAPIKey = googleBooksAPIKey
